@@ -91,7 +91,7 @@ setInterval(function(){
   clock.innerHTML=date.toLocaleTimeString()
 },1000);    
 
-//syntax is important
+//syntax is important {interview}
 //set inetrval has two parameters
 
 
