@@ -75,3 +75,24 @@ form.addEventListener('submit',function(e){
       
   }
 })
+
+```
+
+##project 3
+
+```javascript
+
+const clock=document.getElementById('clock')
+
+
+setInterval(function(){
+  let date=new Date();
+  // console.log(date.toLocaleTimeString)
+  clock.innerHTML=date.toLocaleTimeString()
+},1000);    
+
+//syntax is important
+//set inetrval has two parameters
+
+
+
