@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai aur code</h1>
+    <button id="stop">Stop</button>
+</body>
+
+<script>
+
+  //  //itne time bad i.e 2000ms ke bad ye execute hoga   
+    // setTimeout(function(){
+    //     console.log("sarthak");
+    // },2000)
+
+
+    //            or
+
+    const saySarthak=function(){
+        console.log("sarthak");
+    }
+    setTimeout(saySarthak,2000)
+
+    const changeText=function(){
+        document.querySelector('h1').innerHTML="LAZY CODING"
+    }
+    // setTimeout(changeText,4000)   
+
+    //if uss setTimeout tak set nahi hua toh use clear timeOut
+
+    const changeMe=setTimeout(changeText,2000)
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(changeMe)    // agar 2ms tak isko nahi roka toh lazy coding reh jayega screen par
+        console.log("STOPPED");
+        
+    })
+
+</script>
+</html>
