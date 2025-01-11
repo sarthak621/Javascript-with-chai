@@ -3,7 +3,7 @@
 #project related to DOM
 
 ##project link
-[Click here] (https://stackblitzstartersxvv3jcrg-fixz--8080--a792378e.local-corp.webcontainer.io)
+[Click here] (https://stackblitz.com/edit/stackblitz-starters-uxewbvcn?file=index.html)
 
 #solution code
 
